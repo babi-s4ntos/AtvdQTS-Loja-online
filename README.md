@@ -295,21 +295,25 @@ http://localhost:8089
 
 Informe a quantidade de usuários simultâneos e a taxa de inicialização. Inicie o teste e acompanhe os resultados.
 
-### Métricas de desempenho
+**### Métricas de desempenho**
 
-Após a execução, registre os valores reais apresentados pelo Locust.
+O teste de carga foi realizado com 20 usuários simultâneos, utilizando o Locust para simular acessos concorrentes à loja virtual.
 
 | Execução | Usuários | RPS | p95 (ms) | Falhas (%) |
 |---|---:|---:|---:|---:|
-| A preencher após execução | — | — | — | — |
+| Teste de carga | 20 | 10,2 | 10 | 0% |
 
-**Descrição das métricas:**
+**Resultados adicionais:**
+- Total de requisições: 307
+- Tempo médio de resposta: 5,79 ms
+- Tempo mediano de resposta: 4 ms
+- Total de falhas: 0
 
-- **RPS:** quantidade de requisições processadas por segundo.
-- **p95:** tempo de resposta abaixo do qual 95% das requisições foram concluídas.
-- **Falhas (%):** percentual de requisições que apresentaram erro.
+**### Evidência da execução**
 
-Não utilize valores estimados. Registre somente os resultados obtidos na execução real.
+A imagem abaixo apresenta os resultados obtidos na interface do Locust durante o teste de carga.
+
+![Resultados do teste de carga da ARENA WEAR com Locust](static/images/locust.png)
 
 ## 7.6 Execução da suíte de testes
 
