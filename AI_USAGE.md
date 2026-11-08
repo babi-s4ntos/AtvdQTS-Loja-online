@@ -1,6 +1,6 @@
 # Uso de Inteligência Artificial
 
-A inteligência artificial foi utilizada como apoio ao planejamento, estruturação e implementação inicial do projeto NORTHMEN.
+A inteligência artificial foi utilizada como apoio ao planejamento, estruturação e implementação inicial do projeto.
 
 ## Atividades apoiadas por IA
 - Organização dos requisitos em módulos e regras de negócio.
