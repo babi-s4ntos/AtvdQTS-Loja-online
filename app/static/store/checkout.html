@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head><meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Finalizar compra — ARENA WEAR</title><link rel="stylesheet" href="/static/store/assets/css/store.css">
+    </head><body data-page="checkout"><header class="header"><nav class="nav">
+        <a class="logo" href="index.html">ARENA WEAR<small>STREET CULTURE</small></a>
+        <a href="cart.html">Voltar à sacola</a></nav></header><main class="wrap">
+            <div class="form-card" style="max-width:620px"><div class="eyebrow">Última etapa</div>
+            <h1>Finalizar pedido.</h1><p>Informe o endereço, escolha o frete e conclua seu pedido.</p>
+            <div class="notice"><b id="buyer-name"></b><br><span id="buyer-email"></span></div>
+            <form id="checkout-form"><div class="field"><label for="cep">CEP de entrega</label>
+                <input id="cep" name="cep" inputmode="numeric" autocomplete="postal-code" placeholder="00000-000" pattern="[0-9]{5}-?[0-9]{3}" required>
+            </div><div class="field"><label for="address">Endereço completo, número, bairro e complemento</label>
+                <input id="address" name="address" autocomplete="street-address" minlength="5" maxlength="240" required></div>
+                <button class="btn outline" type="button" id="quote-shipping">Calcular opções de entrega</button>
+                <div class="field" id="shipping-options"><label>Frete</label>
+                    <p class="stock-note">Informe o CEP para consultar as opções disponíveis.</p>
+                </div><div class="field"><label for="payment">Forma de pagamento</label>
+                    <select id="payment"><option value="Mercado Pago">Pix ou cartão via Mercado Pago</option>
+                        <option value="Pagamento na entrega">Pagamento na entrega (combinar com a loja)</option>
+                    </select></div><div class="summary-line"><b>Total estimado</b><b id="checkout-total"></b>
+                    </div><p class="stock-note">Pagamentos online são processados no ambiente seguro do Mercado Pago. O pedido só será aprovado após confirmação autenticada do gateway.</p>
+                    <button id="finish" class="btn dark" type="submit">Continuar para pagamento</button>
+                </form><div id="checkout-result"></div></div></main><div class="toast" id="toast"></div>
+                <script src="/static/store/assets/js/store.js"></script></body></html>

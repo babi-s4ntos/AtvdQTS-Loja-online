@@ -1,0 +1,134 @@
+
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Produtos — ARENA WEAR</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/store/assets/css/store.css"
+    >
+</head>
+
+<body data-page="catalog">
+
+    <div class="announcement">
+        ARENA WEAR · STREET CULTURE
+    </div>
+
+    <header class="header">
+        <nav class="nav" aria-label="Navegação principal">
+
+            <a class="logo" href="index.html" aria-label="ARENA WEAR — Página inicial">
+                ARENA WEAR
+                <small>STREET CULTURE</small>
+            </a>
+
+            <div class="navlinks">
+                <a href="products.html">Coleção</a>
+                <a href="products.html?category=Camisetas">Camisetas</a>
+                <a href="products.html?category=Moletons">Moletons</a>
+            </div>
+
+            <div class="navtools">
+                <a href="login.html">Entrar</a>
+                <a href="account.html">Conta</a>
+                <a href="cart.html">
+                    Sacola (<span data-cart-count>0</span>)
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="wrap">
+
+        <div class="page-title">
+            <div class="eyebrow">ARENA WEAR / SHOP</div>
+
+            <h1>A coleção.</h1>
+
+            <p>
+                Encontre as peças que acompanham seu ritmo.
+            </p>
+        </div>
+
+        <section class="filters" aria-label="Filtros de produtos">
+
+            <input
+                id="search"
+                type="search"
+                name="search"
+                placeholder="Buscar produtos..."
+                aria-label="Buscar produtos pelo nome"
+            >
+
+            <select
+                id="category"
+                name="category"
+                aria-label="Filtrar produtos por categoria"
+            >
+                <option value="">Todas as categorias</option>
+                <option value="Camisetas">Camisetas</option>
+                <option value="Moletons">Moletons</option>
+                <option value="Calças e bermudas">Calças e bermudas</option>
+            </select>
+
+        </section>
+
+        <div
+            class="product-grid"
+            id="catalog"
+            aria-label="Lista de produtos"
+            aria-live="polite"
+        ></div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-inner">
+
+            <div>
+                <a class="logo" href="index.html" aria-label="ARENA WEAR — Página inicial">
+                    ARENA WEAR
+                </a>
+
+                <p>Streetwear para sua própria rota.</p>
+            </div>
+
+            <div>
+                <h4>LOJA</h4>
+                <a href="products.html">Coleção</a>
+                <br>
+                <a href="cart.html">Sacola</a>
+            </div>
+
+            <div>
+                <h4>CLIENTE</h4>
+                <a href="account.html">Minha conta</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © ARENA WEAR
+        </div>
+
+    </footer>
+
+    <div
+        class="toast"
+        id="toast"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+    <script src="/static/store/assets/js/store.js"></script>
+
+</body>
+</html>
