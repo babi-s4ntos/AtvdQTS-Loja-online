@@ -313,7 +313,7 @@ O teste de carga foi realizado com 20 usuários simultâneos, utilizando o Locus
 
 A imagem abaixo apresenta os resultados obtidos na interface do Locust durante o teste de carga.
 
-![Resultados do teste de carga da ARENA WEAR com Locust](static/images/locust.png)
+![Resultados do teste de carga da ARENA WEAR com Locust](app/static/images/locust.png)
 
 ## 7.6 Execução da suíte de testes
 
